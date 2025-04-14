@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url(/fonts/Playfair-display.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bree Serif';
+    src: url(/fonts/BreeSerif-Regular-2.ttf);
+    font-weight:bold;
+}
+@font-face {
+    font-family: 'Kavivanar';
+    src: url(/fonts/Kavivanar-Regular-2.ttf);
+    font-weight:bold;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+header li{
+    float:right; 
+}
+header{
+    width: 100%;
+    font-family:'Playfair',Arial,sans-serif;
+    display: flex; 
+    gap:13px;
+    justify-content: flex-end;
+}
+header a{
+    padding:15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:rgba(84, 166, 12, 0.942);
+}
+header a:hover{
+    color:black;
+    background: rgba(255,255,255,0.1);
+}
+h1{
+    font-family: 'Kavivanar';
+    font-weight:bolder;
+    color:rgba(84, 166, 12, 0.942);
+    font-size:100px;
+    position: absolute;
+    left:400px;
+    top:500px;
+}
+#container p{
+    font-size: 20px;
+    font-family: 'Bree Serif',Arial,sans-serif;
+    color:rgba(84, 166, 12, 0.942);
+    position: absolute;
+    left:750px;
+    top:400px;
+}
+body {
+    background-image: url('/images/acf6c7c2be094b35b294d99a4f33a25c_2141007985.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parent {
+    position: relative; /* 关键：建立定位上下文 */
+    width: 500px;
+    height: 300px;
+  }
+  
+.absolute-img {
+    border-radius: 50%;
+    position: absolute; /* 绝对定位 */
+    top: 300px;          /* 距父元素顶部20px */
+    left: 460px;         /* 距父元素左侧30px */
+    width: 200px;       /* 可选：控制图片尺寸 */
+    z-index: 1;         /* 可选：控制层级 */
+    transition: transform 0.3s; /* 悬停动画 */
+  }
+  .absolute-img:hover {
+    transform: translateY(-10px); /* 悬停时上移 */
+  }
+
+#container {
+    /* position: relative; */
+    top: -50px; /* 调整为负值使内容上移 */
+}

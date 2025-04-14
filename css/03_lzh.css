@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.resume-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.photo-container {
+    margin-bottom: 20px;
+}
+.photo-placeholder img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ddd;
+    display: block;
+    margin: 0 auto;
+}
+.section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+.section-title i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+.section-content {
+    line-height: 1.6;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 20px;
+    }
+    .section-title {
+        font-size: 1em;
+    }
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

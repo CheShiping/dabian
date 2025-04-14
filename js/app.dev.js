@@ -9,7 +9,7 @@ var apps = [{
   color: '#007CF0',
   badge: '💻',
   // 新增角标装饰
-  src: '/html/03_lzh/index.html' // 新增src属性
+  src: '/答辩/html/03_lzh/index.html' // 新增src属性
 
 }, {
   title: '车时平',
@@ -19,7 +19,7 @@ var apps = [{
   color: '#00C853',
   pulse: true,
   badge: '🎨',
-  src: '/html/01_csp/index.html' // 新增src属性
+  src: '/答辩/html/01_csp/index.html' // 新增src属性
 
 }, {
   title: '刘泓君',
@@ -28,7 +28,7 @@ var apps = [{
   // 职业形象
   color: '#D500F9',
   badge: '📊',
-  src: '/html/02_lhj/index.html' // 新增src属性
+  src: '/答辩/html/02_lhj/index.html' // 新增src属性
 
 }]; // 更新createCard函数
 
