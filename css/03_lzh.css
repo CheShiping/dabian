@@ -6,7 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* 修改为 min-height */
+    box-sizing: border-box; /* 确保 padding 不影响布局 */
 }
 .resume-container {
     max-width: 800px;
@@ -80,4 +81,10 @@ a {
 a:hover {
     color: #0056b3;
     text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

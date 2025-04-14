@@ -6,7 +6,7 @@ const apps = [
         icon: 'fa-solid fa-user-astronaut', // 技术人员形象
         color: '#007CF0',
         badge: '💻' ,// 新增角标装饰
-        src: '/答辩/html/03_lzh/index.html' // 新增src属性
+        src: './html/03_lzh/index.html' // 新增src属性
     },
     {
         title: '车时平',
@@ -15,7 +15,7 @@ const apps = [
         color: '#00C853',
         pulse: true,
         badge: '🎨',
-        src: '/答辩/html/01_csp/index.html' // 新增src属性
+        src: './html/01_csp/index.html' // 新增src属性
     },
     {
         title: '刘泓君',
@@ -23,7 +23,7 @@ const apps = [
         icon: 'fa-solid fa-user-tie', // 职业形象
         color: '#D500F9',
         badge: '📊',
-        src: '/答辩/html/02_lhj/index.html' // 新增src属性
+        src: './html/02_lhj/index.html' // 新增src属性
     }
 ];
 
