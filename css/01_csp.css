@@ -55,7 +55,7 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #e74c3c;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -65,20 +65,14 @@ header {
 }
 
 .dropdown-content li {
-    margin: 0;
-    padding: 0;
+    list-style: none;
 }
 
 .dropdown-content a {
-    color: #000;
-    padding: 12px 16px;
+    color: #ffffff;
     text-decoration: none;
     display: block;
     transition: background-color 0.2s ease;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
 }
 
 .nav-links a {
@@ -93,10 +87,18 @@ header {
     background-color: #c0392b;
 }
 
+/* Banner Styles */
+.banner {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
 /* Main Content */
 main {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     padding: 20px;
     margin: 0 auto;
     max-width: 90%;
@@ -112,14 +114,15 @@ main {
 /* Sidebar */
 aside {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 60px;
+    left: 40px;
     width: auto;
     max-width: 200px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     z-index: 10;
 }
@@ -156,7 +159,8 @@ aside {
 section {
     width: 80%;
     background: #fff;
-    padding: 20px;
+    margin-left: 100px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -173,8 +177,13 @@ section img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Paragraph Styles */
+.card p {
+    text-indent: 2em;
+}
+
 /* Image Description */
-p[type="om-image-desc"] {
+.qqnews_image_desc {
     line-height: 20px;
     text-align: center;
     font-size: 14px;
@@ -252,16 +261,4 @@ footer {
     transform: scale(1.1);
 }
 
-/* Card Style for Sidebar */
-.card-style {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
-}
 
-/* Paragraph Styles */
-.card p {
-    text-indent: 2em;
-}
